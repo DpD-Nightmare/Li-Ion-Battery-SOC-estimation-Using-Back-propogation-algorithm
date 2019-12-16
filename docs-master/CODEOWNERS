@@ -1,0 +1,13 @@
+# https://help.github.com/articles/about-codeowners/
+# Last matching pattern takes preecedence.
+
+# Default owners for everything in repo.
+*  @lamberta @MarkDaoust
+
+# Docs
+/site/en/guide/ @lamberta @MarkDaoust @yashk2810
+/site/en/tutorials/ @lamberta @MarkDaoust @yashk2810
+
+# Community
+/site/en/community/ @ewilderj @lamberta
+/site/en/community/groups.md @soonson

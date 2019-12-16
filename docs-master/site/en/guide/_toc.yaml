@@ -1,0 +1,72 @@
+toc:
+- title: "TensorFlow guide"
+  path: /guide/
+
+- heading: "TensorFlow 2"
+- title: "Effective TensorFlow"
+  path: /guide/effective_tf2
+- title: "Migrate from TF1 to TF2"
+  path: /guide/migrate
+- title: "Convert with the upgrade script"
+  path: /guide/upgrade
+- title: "Performance with tf.function"
+  path: /guide/function
+- title: "Community testing FAQ"
+  path: https://github.com/tensorflow/community/blob/master/sigs/testing/faq.md
+  status: external
+
+- heading: "Keras"
+- title: "Keras overview"
+  path: /guide/keras/overview
+- title: "Keras functional API"
+  path: /guide/keras/functional
+- title: "Train and evaluate"
+  path: /guide/keras/train_and_evaluate
+- title: "Write custom layers and models"
+  path: /guide/keras/custom_layers_and_models
+- title: "Save and serialize models"
+  path: /guide/keras/save_and_serialize
+- title: "Keras Recurrent Neural Networks"
+  path: /guide/keras/rnn
+- title: "Masking and padding"
+  path: /guide/keras/masking_and_padding
+- title: "Write custom callbacks"
+  path: /guide/keras/custom_callback
+
+- heading: "Estimators"
+- title: "Estimator overview"
+  path: /guide/estimator
+
+- heading: "Customization"
+- title: "Eager execution"
+  path: /guide/eager
+- title: "Variable"
+  path: /guide/variable
+- title: "Tensor"
+  path: /guide/tensor
+- title: "Ragged tensor"
+  path: /guide/ragged_tensor
+- title: "Create an op"
+  path: /guide/create_op
+
+- heading: "Data input pipelines"
+- title: "tf.data"
+  path: /guide/data
+- title: "Optimizing input pipelines"
+  path: /guide/data_performance
+
+- heading: "Save a model"
+- title: "Checkpoint"
+  path: /guide/checkpoint
+- title: "SavedModel"
+  path: /guide/saved_model
+
+- heading: "Accelerators"
+- title: "Distributed training"
+  path: /guide/distributed_training
+- title: "GPU"
+  path: /guide/gpu
+
+- heading: "Appendix"
+- title: "Version compatibility"
+  path: /guide/versions
