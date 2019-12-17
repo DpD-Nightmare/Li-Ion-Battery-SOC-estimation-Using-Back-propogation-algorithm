@@ -7,11 +7,25 @@ Created on Thu Dec 12 17:50:16 2019
 """
 
 import numpy as np
-import pandas as pd
+from numpy import convolve
+import matplotlib.pyplot as plt
 
-product = {'month' : [1,2,3,4,5,6,7,8,9,10,11,12], 'demand':[200,120,150,600,450,650,400,290,300,100,700,850]}
+def movingavrage (value, window):
+    weights = np.repeat(1.0, window)/window
+    sma = np.convolve(value, weights,'valid')
+    return sma
 
-df= pd.DataFrame(product)
+x = [1,2,3,4,5,6,7,8,9,10]
+y = [3,5,1,8,2,1,6,1,9,2]
 
-df.reshape(2,12)
-print(df.shape)
+xMA = movingavrage (x,3)
+yMA = movingavrage (y,3)
+yMA = list(yMA)
+yMA.insert(0,y[0])
+yMA.insert(1,y[1])
+print(len(yMA))
+print(yMA)
+print (xMA)
+plt.plot(x,y)
+plt.plot(x,yMA)
+#plt.show()
